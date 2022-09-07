@@ -1,0 +1,42 @@
+* {
+  margin: 0 auto;
+}
+#apple-image {
+  background: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  font-size: 6em;
+}
+#recipe {
+  margin: 0 125px;
+}
+
+#grandma-recipe p {
+  font-size: 2.5em;
+}
+h2 {
+  padding: 50px 0;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+#ingredients {
+  text-align: left;
+  font-size: 2em;
+}
+#ingredients ul {
+  list-style: "-";
+}
+
+#directions {
+  font-size: 2em;
+}
+#directions ol {
+  list-style: none;
+}
