@@ -43,6 +43,7 @@ img {
 }
 #ingredients ul {
   list-style: "-";
+  font-size: large;
 }
 
 #directions {
