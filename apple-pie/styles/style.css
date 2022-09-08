@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
 * {
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
 }
 #apple-image {
   background: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
@@ -8,34 +12,41 @@
   background-position: center;
   height: 100vh;
   color: white;
-  font-size: 6em;
+  font-size: 4em;
+  text-align: center;
+}
+#apple-image h1 {
+  display: block;
+  padding: 250px;
 }
 #recipe {
-  margin: 0 125px;
+  margin: 0 180px;
+  padding: 50px 0;
 }
 
 #grandma-recipe p {
-  font-size: 2.5em;
+  font-size: 2.1em;
 }
 h2 {
   padding: 50px 0;
 }
 
 img {
-  width: 50%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
+  display: block;
 }
 
 #ingredients {
   text-align: left;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 #ingredients ul {
   list-style: "-";
 }
 
 #directions {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 #directions ol {
   list-style: none;
