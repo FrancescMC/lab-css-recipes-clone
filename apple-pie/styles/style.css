@@ -51,4 +51,9 @@ img {
 }
 #directions ol {
   list-style: none;
+  counter-reset: section;
+}
+#directions li:before {
+  counter-increment: section;
+  content: "" counter(section) ") ";
 }
